@@ -1,0 +1,7 @@
+name: cf_to_json
+channels:
+  - conda-forge
+dependencies:
+  - jupyter
+  - python
+  - ipykernel
