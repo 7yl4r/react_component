@@ -30,7 +30,7 @@ export default [
       {
         name: 'build-dwc-json',
         buildStart(){
-          exec('node build-dwc-json.js', (err, stdout, stderr) => {
+          exec('node src/build-dwc-json.js', (err, stdout, stderr) => {
             if (err) {
               console.error(`Error executing script: ${err.message}`);
               return;

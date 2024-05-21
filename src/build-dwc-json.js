@@ -12,7 +12,7 @@ const csvUrl = 'https://raw.githubusercontent.com/tdwg/dwc/master/dist/all_dwc_v
 const csvFilePath = path.join(__dirname, 'downloaded-dwc.csv');
 
 // Path to save the resulting JSON file
-const jsonFilePath = path.join(__dirname, 'src', 'vocabulary_json', 'downloaded-dwc.json');
+const jsonFilePath = path.join(__dirname, 'vocabulary_json', 'downloaded-dwc.json');
 
 // Template object
 const templateJson = {
