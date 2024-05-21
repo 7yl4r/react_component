@@ -1,5 +1,5 @@
 {
-  "name": "@YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME",
+  "name": "@7yl4r/vocab_suggester",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
   },
