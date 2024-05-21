@@ -1,59 +1,23 @@
+# 
+
+* `npm install --save-dev jest-environment-jsdom` : set up test env
+* `npm run test` : run tests
+* `npm run rollup` : build the library
+* `npm run storybook` : local storybook
+* `npm run build-storybook` : build storybook
+
+-----------------------------------------------------------------------
+
 # React Component Library Template
+
+This repo was cloned from [alexeagleson/template-react-component-library](https://github.com/alexeagleson/template-react-component-library/).
+Some of the documentation from that repo remains included below.
+
+-----------------------------------------------------------------------
 
 This project is part of a [blog & video tutorial](https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe) on how to create and publish your own component library.
 
 [![React Component Library Video Tutorial](https://img.youtube.com/vi/XHQi5a0TmMc/0.jpg)](https://youtu.be/XHQi5a0TmMc)
-
-You can use this repo to fork as a template for your own React library projects.  
-
-## Available Scripts
-
-### Build the library
-
-```
-npm run rollup
-```
-
-### Publish the library
-
-```
-npm publish
-```
-
-### Run tests
-
-```
-npm run test
-```
-
-### Run storybook locally
-
-```
-npm run storybook
-```
-
-### Build storybook
-
-```
-npm run build-storybook
-```
-
-## Tutorial
-
-1. [Introduction](#introduction)
-1. [Prerequisites and Setup](#prerequisites-and-setup)
-1. [Creating Components](#creating-components)
-1. [Adding Typescript](#adding-typescript)
-1. [Adding Rollup](#adding-rollup)
-1. [Building Your Library](#building-your-library)
-1. [Publishing Your Library](#publishing-your-library)
-1. [Using Your Library](#using-your-library)
-1. [Adding CSS](#adding-css)
-1. [Optimizing](#optimizing)
-1. [Adding Tests](#adding-tests)
-1. [Adding Storybook](#adding-storybook)
-1. [Adding SCSS](#adding-scss)
-1. [Wrapping Up](#wrapping-up)
 
 ## Introduction
 
