@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
+import { exec } from 'child_process';
 
 const packageJson = require("./package.json");
 
@@ -26,6 +27,22 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
       postcss(),
+      {
+        name: 'build-dwc-json',
+        buildStart(){
+          exec('node build-dwc-json.js', (err, stdout, stderr) => {
+            if (err) {
+              console.error(`Error executing script: ${err.message}`);
+              return;
+            }
+            if (stderr) {
+              console.error(`Script error: ${stderr}`);
+              return;
+            }
+            console.log(`Script output: ${stdout}`);
+          });
+        }
+      }
     ],
   },
   {
