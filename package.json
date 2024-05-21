@@ -55,5 +55,9 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "csv-parser": "^3.0.0"
+  }
 }
