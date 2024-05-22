@@ -1,0 +1,4271 @@
+[
+    {
+      "alerts": {
+        "threshold_max": 110000,
+        "threshold_min": 50000
+      },
+      "canonical_unit_id": "pa",
+      "display_description": {
+        "en": "Air or atmospheric pressure is the pressure exerted by overlying air. (IOOS)"
+      },
+      "display_name": {
+        "en": "Air pressure"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "inhg",
+      "preferred_metric_unit_id": "mbar",
+      "standard_name": "air_pressure",
+      "units": [
+        {
+          "id": "pa",
+          "js_qty_unit": "Pa",
+          "symbol": "Pa",
+          "udunit": "Pa"
+        },
+        {
+          "id": "inhg",
+          "js_qty_unit": "inHg",
+          "symbol": "inHg",
+          "udunit": "inHg"
+        },
+        {
+          "id": "mbar",
+          "js_qty_unit": "mbar",
+          "symbol": "mbar",
+          "udunit": "mBar"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 110000,
+        "threshold_min": 50000
+      },
+      "canonical_unit_id": "pa",
+      "display_description": {
+        "en": "Air pressure at mean sea level is the atmospheric pressure at sea level at a given location. (NOAA)"
+      },
+      "display_name": {
+        "en": "Air pressure at mean sea level"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "inhg",
+      "preferred_metric_unit_id": "mbar",
+      "standard_name": "air_pressure_at_mean_sea_level",
+      "units": [
+        {
+          "id": "pa",
+          "js_qty_unit": "Pa",
+          "symbol": "Pa",
+          "udunit": "Pa"
+        },
+        {
+          "id": "inhg",
+          "js_qty_unit": "inHg",
+          "symbol": "inHg",
+          "udunit": "inHg"
+        },
+        {
+          "id": "mbar",
+          "js_qty_unit": "mbar",
+          "symbol": "mbar",
+          "udunit": "mBar"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 338,
+        "threshold_min": 228
+      },
+      "canonical_unit_id": "kelvin",
+      "display_description": {
+        "en": "Air temperature is the temperature of air in situ. (IOOS)"
+      },
+      "display_name": {
+        "en": "Air temperature"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fahrenheit",
+      "preferred_metric_unit_id": "celsius",
+      "standard_name": "air_temperature",
+      "units": [
+        {
+          "id": "kelvin",
+          "js_qty_unit": "tempK",
+          "symbol": "K",
+          "udunit": "K"
+        },
+        {
+          "id": "celsius",
+          "js_qty_unit": "tempC",
+          "symbol": "°C",
+          "udunit": "degree_Celsius"
+        },
+        {
+          "id": "fahrenheit",
+          "js_qty_unit": "tempF",
+          "symbol": "°F",
+          "udunit": "degree_Fahrenheit"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "quinine_sulfate_units",
+      "display_description": {
+        "en": "Colored (or chromophoric) dissolved organic matter (CDOM) is the optically measurable component of the dissolved organic matter in water. (IOOS)"
+      },
+      "display_name": {
+        "en": "Chromophoric dissolved organic matter (cdom)"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "quinie_sulfate_units",
+      "preferred_metric_unit_id": "quinine_sulfate_units",
+      "standard_name": "concentration_of_colored_dissolved_organic_matter_in_sea_water_expressed_as_equivalent_mass_fraction_of_quinine_sulfate_dihydrate",
+      "units": [
+        {
+          "id": "quinine_sulfate_units",
+          "js_qty_unit": "1",
+          "symbol": "QSU",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 291,
+        "threshold_min": 230
+      },
+      "canonical_unit_id": "kelvin",
+      "display_description": {
+        "en": "Dew point temperature is the temperature at which water vapor in air begins to condense. (IOOS)"
+      },
+      "display_name": {
+        "en": "Dew point temperature"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fahrenheit",
+      "preferred_metric_unit_id": "celsius",
+      "standard_name": "dew_point_temperature",
+      "units": [
+        {
+          "id": "kelvin",
+          "js_qty_unit": "tempK",
+          "symbol": "K",
+          "udunit": "K"
+        },
+        {
+          "id": "celsius",
+          "js_qty_unit": "tempC",
+          "symbol": "°C",
+          "udunit": "degree_Celsius"
+        },
+        {
+          "id": "fahrenheit",
+          "js_qty_unit": "tempF",
+          "symbol": "°F",
+          "udunit": "degree_Fahrenheit"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 2,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "A velocity is a vector quantity. 'Eastward' indicates a vector component which is positive when directed eastward (negative westward). (CF)"
+      },
+      "display_name": {
+        "en": "Eastward current at depth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "miles_per_hour",
+      "preferred_metric_unit_id": "centimeters_per_second",
+      "standard_name": "eastward_sea_water_velocity",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "centimeters_per_second",
+          "js_qty_unit": "cm s-1",
+          "symbol": "cm/s",
+          "udunit": "cm s-1"
+        },
+        {
+          "id": "miles_per_hour",
+          "js_qty_unit": "mi h-1",
+          "symbol": "mph",
+          "udunit": "mi h-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 175,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Dissolved oxygen (DO) saturation is DO concentration relative to DO saturation levels at the same temperature and salinity in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Dissolved oxygen saturation"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "fractional_saturation_of_oxygen_in_sea_water",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Latitude is the Y-coordinate of dependent observation in geographic coordinate. North is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Latitude"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "latitude",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Altitude is the Z-coordinate of observation in vertical distance above reference. Up is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Altitude"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "altitude",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "feet",
+          "symbol": "ft",
+          "udunit": "feet"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Longitude is the X-coordinate of dependent observation in geographic coordinate. East is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Longitude"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "longitude",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 0.0004,
+        "threshold_min": 0.000005
+      },
+      "canonical_unit_id": "kilograms_per_cubic_meter",
+      "display_description": {
+        "en": "Chlorophyll is the green pigment found in plants and algae. Chlorophyll measurements are used to determine how much algae is in the water. (USGS)"
+      },
+      "display_name": {
+        "en": "Chlorophyll concentration"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "mass_concentration_of_chlorophyll_in_sea_water",
+      "units": [
+        {
+          "id": "kilograms_per_cubic_meter",
+          "js_qty_unit": "kg m-3",
+          "symbol": "kg/m³",
+          "udunit": "kg m-3"
+        },
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 50,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "kilograms_per_cubic_meter",
+      "display_description": {
+        "en": "Dissolved oxygen (DO) refers to the concentration of oxygen gas incorporated in water. (EPA)"
+      },
+      "display_name": {
+        "en": "Dissolved oxygen"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "mass_concentration_of_oxygen_in_sea_water",
+      "units": [
+        {
+          "id": "kilograms_per_cubic_meter",
+          "js_qty_unit": "kg m-3",
+          "symbol": "kg/m³",
+          "udunit": "kg m-3"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 2,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "A velocity is a vector quantity. 'Northward' indicates a vector component which is positive when directed northward (negative southward). (CF)"
+      },
+      "display_name": {
+        "en": "Northward current at depth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "miles_per_hour",
+      "preferred_metric_unit_id": "centimeters_per_second",
+      "standard_name": "northward_sea_water_velocity",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "centimeters_per_second",
+          "js_qty_unit": "cm s-1",
+          "symbol": "cm/s",
+          "udunit": "cm s-1"
+        },
+        {
+          "id": "miles_per_hour",
+          "js_qty_unit": "mi h-1",
+          "symbol": "mph",
+          "udunit": "mi h-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Relative humidity is the amount of moisture in the air as vapor relative to how much it can possibly hold at the same temperature. (IOOS)"
+      },
+      "display_name": {
+        "en": "Relative humidity"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "relative_humidity",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 333,
+        "threshold_min": 263
+      },
+      "canonical_unit_id": "kelvin",
+      "display_description": {
+        "en": "Sea surface temperature is usually abbreviated as 'SST'. It is the temperature of sea [or lake] water near the surface (including the part under sea-ice, if any). (CF)"
+      },
+      "display_name": {
+        "en": "Surface water temperature"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fahrenheit",
+      "preferred_metric_unit_id": "celsius",
+      "standard_name": "sea_surface_temperature",
+      "units": [
+        {
+          "id": "kelvin",
+          "js_qty_unit": "tempK",
+          "symbol": "K",
+          "udunit": "K"
+        },
+        {
+          "id": "celsius",
+          "js_qty_unit": "tempC",
+          "symbol": "°C",
+          "udunit": "degree_Celsius"
+        },
+        {
+          "id": "fahrenheit",
+          "js_qty_unit": "tempF",
+          "symbol": "°F",
+          "udunit": "degree_Fahrenheit"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 333,
+        "threshold_min": 263
+      },
+      "canonical_unit_id": "kelvin",
+      "display_description": {
+        "en": "Temperature measured by an infrared radiometer typically operating at wavelengths in the range 3.7 - 12 micrometers. It represents the temperature within the conductive diffusion-dominated sub-layer at a depth of approximately 10 - 20 micrometers below the air-sea interface. Measurements of this quantity are subject to a large potential diurnal cycle including cool skin layer effects (especially at night under clear skies and low wind speed conditions) and warm layer effects in the daytime. (CF)"
+      },
+      "display_name": {
+        "en": "Surface skin temperature"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fahrenheit",
+      "preferred_metric_unit_id": "celsius",
+      "standard_name": "sea_surface_skin_temperature",
+      "units": [
+        {
+          "id": "kelvin",
+          "js_qty_unit": "tempK",
+          "symbol": "K",
+          "udunit": "K"
+        },
+        {
+          "id": "celsius",
+          "js_qty_unit": "tempC",
+          "symbol": "°C",
+          "udunit": "degree_Celsius"
+        },
+        {
+          "id": "fahrenheit",
+          "js_qty_unit": "tempF",
+          "symbol": "°F",
+          "udunit": "degree_Fahrenheit"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Wave direction is the direction that the wind-waves are coming from. (NOAA)"
+      },
+      "display_name": {
+        "en": "Wave direction (from)"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "sea_surface_wave_from_direction",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Dominant wave direction is the direction from which the most energetic waves are coming. (CF)"
+      },
+      "display_name": {
+        "en": "Dominant wave direction (from)"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "sea_surface_wave_from_direction_at_variance_spectral_density_maximum",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Dominant wave directional spread"
+      },
+      "display_name": {
+        "en": "Dominant wave directional spread"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "sea_surface_wave_directional_spread_at_variance_spectral_density_maximum",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Mean wave directional spread"
+      },
+      "display_name": {
+        "en": "Mean wave directional spread"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "sea_surface_wave_directional_spread",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 20,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Wave height is defined as the vertical distance from a wave trough to the following wave crest. The maximum wave height is the greatest trough to crest distance measured during the observation period. (CF def)"
+      },
+      "display_name": {
+        "en": "Maximum wave height"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "sea_surface_wave_maximum_height",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "seconds",
+      "display_description": {
+        "en": "The maximum wave period is the longest wave period measured during the observation period. A period is an interval of time, or the time-period of an oscillation. Wave period is the interval of time between repeated features on the waveform such as crests, troughs or upward passes through the mean level. (CF def)"
+      },
+      "display_name": {
+        "en": "Maximum wave period"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "seconds",
+      "preferred_metric_unit_id": "seconds",
+      "standard_name": "sea_surface_wave_maximum_period",
+      "units": [
+        {
+          "id": "seconds",
+          "js_qty_unit": "s",
+          "symbol": "s",
+          "udunit": "s"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 20,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Wave height is defined as the vertical distance from a wave trough to the following wave crest. The height of the highest tenth is defined as the mean of the highest ten percent of trough to crest distances measured during the observation period. (CF def)"
+      },
+      "display_name": {
+        "en": "Mean wave height of highest tenth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "sea_surface_wave_mean_height_of_highest_tenth",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "seconds",
+      "display_description": {
+        "en": "A period is an interval of time, or the time-period of an oscillation. Wave period is the interval of time between repeated features on the waveform such as crests, troughs or upward passes through the mean level. Wave mean period is the mean period measured over the observation duration. (CF def)"
+      },
+      "display_name": {
+        "en": "Mean wave period"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "seconds",
+      "preferred_metric_unit_id": "seconds",
+      "standard_name": "sea_surface_wave_mean_period",
+      "units": [
+        {
+          "id": "seconds",
+          "js_qty_unit": "s",
+          "symbol": "s",
+          "udunit": "s"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "seconds",
+      "display_description": {
+        "en": "The dominant wave period represents the most energetic wave in the spectrum. (NOAA)"
+      },
+      "display_name": {
+        "en": "Dominant wave period"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "seconds",
+      "preferred_metric_unit_id": "seconds",
+      "standard_name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+      "units": [
+        {
+          "id": "seconds",
+          "js_qty_unit": "s",
+          "symbol": "s",
+          "udunit": "s"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 20,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Significant wave height is the average of the highest one-third (33%) of waves (measured from trough to crest) that occur in a given period. (NOAA)"
+      },
+      "display_name": {
+        "en": "Significant wave height"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "sea_surface_wave_significant_height",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "seconds",
+      "display_description": {
+        "en": "Significant wave period is a statistic computed from wave measurements and corresponds to the mean wave period of the highest one-third of the waves. A period is an interval of time, or the time-period of an oscillation. Wave period is the interval of time between repeated features on the waveform such as crests, troughs or upward passes through the mean level. (CF def)"
+      },
+      "display_name": {
+        "en": "Significant wave period"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "seconds",
+      "preferred_metric_unit_id": "seconds",
+      "standard_name": "sea_surface_wave_significant_period",
+      "units": [
+        {
+          "id": "seconds",
+          "js_qty_unit": "s",
+          "symbol": "s",
+          "udunit": "s"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 0.1,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "siemens_per_meter",
+      "display_description": {
+        "en": "Conductivity is the ability of a material to pass an electrical current. It is the inverse of resistance. In water, it is a proxy from which salinity is derived for water quality or to further derive water density. (IOOS)"
+      },
+      "display_name": {
+        "en": "Conductivity"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "microsiemens_per_centimeter",
+      "preferred_metric_unit_id": "microsiemens_per_centimeter",
+      "standard_name": "sea_water_electrical_conductivity",
+      "units": [
+        {
+          "id": "siemens_per_meter",
+          "js_qty_unit": "S m-1",
+          "symbol": "S/m",
+          "udunit": "S m-1"
+        },
+        {
+          "id": "microsiemens_per_centimeter",
+          "js_qty_unit": "µS cm-1",
+          "symbol": "µS/cm",
+          "udunit": "µS cm-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 14,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "ph",
+      "display_description": {
+        "en": "pH is a measure of the acidity or alkalinity of the seawater. (NOAA)"
+      },
+      "display_name": {
+        "en": "pH"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "ph",
+      "preferred_metric_unit_id": "ph",
+      "standard_name": "sea_water_ph_reported_on_total_scale",
+      "units": [
+        {
+          "id": "ph",
+          "js_qty_unit": "pH",
+          "symbol": "",
+          "udunit": "pH"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "Pascal",
+      "display_description": {
+        "en": "In the atmosphere, the partial pressure of carbon dioxide (pCO₂) is defined as the pressure the CO₂ would exert if all other gases were removed. In the ocean (/lake), the pCO₂ is determined by the amount of dissolved CO₂ and H₂CO₃. (IOOS)"
+      },
+      "display_name": {
+        "en": "Water partial pressure of CO₂"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "microatmosphere",
+      "preferred_metric_unit_id": "microatmosphere",
+      "standard_name": "partial_pressure_of_carbon_dioxide_in_sea_water",
+      "units": [
+        {
+          "id": "Pascal",
+          "js_qty_unit": "Pa",
+          "symbol": "Pa",
+          "udunit": "Pa"
+        },
+        {
+          "id": "microatmosphere",
+          "js_qty_unit": "µatm",
+          "symbol": "µatm",
+          "udunit": "µatm"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cubic_meters_per_second",
+      "display_description": {
+        "en": "River discharge is the volumetric rate of water flow of a stream or river or pipe. The measure of flow through a cross-sectional area per unit time. (IOOS) "
+      },
+      "display_name": {
+        "en": "River discharge"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "cubic_feet_per_second",
+      "preferred_metric_unit_id": "cubic_meters_per_second",
+      "standard_name": "water_volume_transport_in_river_channel",
+      "units": [
+        {
+          "id": "cubic_meters_per_second",
+          "js_qty_unit": "m^3 s-1",
+          "symbol": "m³/s",
+          "udunit": "m^3 s-1"
+        },
+        {
+          "id": "cubic_feet_per_second",
+          "js_qty_unit": "ft^3 s-1",
+          "symbol": "ft³/s",
+          "udunit": "ft^3 s-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "kilograms_per_cubic_meter",
+      "display_description": {
+        "en": "Sea water density is the in-situ density. (CF def)"
+      },
+      "display_name": {
+        "en": "Sea water density"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "kilograms_per_cubic_meter",
+      "preferred_metric_unit_id": "kilograms_per_cubic_meter",
+      "standard_name": "sea_water_density",
+      "units": [
+        {
+          "id": "kilograms_per_cubic_meter",
+          "js_qty_unit": "kg m-3",
+          "symbol": "kg/m³",
+          "udunit": "kg m-3"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "dbar",
+      "display_description": {
+        "en": "The pressure that exists in the medium of sea water due to overlying sea water. Excludes the pressure due to sea ice, air and any other medium that may be present. (CF def)"
+      },
+      "display_name": {
+        "en": "Water pressure due to water"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "dbar",
+      "preferred_metric_unit_id": "dbar",
+      "standard_name": "sea_water_pressure_due_to_sea_water",
+      "units": [
+        {
+          "id": "dbar",
+          "js_qty_unit": "dbar",
+          "symbol": "dbar",
+          "udunit": "dbar"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "dbar",
+      "display_description": {
+        "en": "The pressure that exists in the medium of sea water. It includes the pressure due to overlying sea water, sea ice, air and any other medium that may be present. (CF def)"
+      },
+      "display_name": {
+        "en": "Water pressure"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "dbar",
+      "preferred_metric_unit_id": "dbar",
+      "standard_name": "sea_water_pressure",
+      "units": [
+        {
+          "id": "dbar",
+          "js_qty_unit": "dbar",
+          "symbol": "dbar",
+          "udunit": "dbar"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 333,
+        "threshold_min": 263
+      },
+      "canonical_unit_id": "kelvin",
+      "display_description": {
+        "en": "Water temp is the in-situ temperature of the ocean [or lake]. (IOOS)"
+      },
+      "display_name": {
+        "en": "Water temp at depth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fahrenheit",
+      "preferred_metric_unit_id": "celsius",
+      "standard_name": "sea_water_temperature",
+      "units": [
+        {
+          "id": "kelvin",
+          "js_qty_unit": "tempK",
+          "symbol": "K",
+          "udunit": "K"
+        },
+        {
+          "id": "celsius",
+          "js_qty_unit": "tempC",
+          "symbol": "°C",
+          "udunit": "degree_Celsius"
+        },
+        {
+          "id": "fahrenheit",
+          "js_qty_unit": "tempF",
+          "symbol": "°F",
+          "udunit": "degree_Fahrenheit"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 1000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "ntu",
+      "display_description": {
+        "en": "Turbidity is a measure of light scattering due to suspended material in water. It is a measure of the cloudiness of water. (IOOS)"
+      },
+      "display_name": {
+        "en": "Turbidity"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "ntu",
+      "preferred_metric_unit_id": "ntu",
+      "standard_name": "sea_water_turbidity",
+      "units": [
+        {
+          "id": "ntu",
+          "js_qty_unit": "NTU",
+          "symbol": "NTU",
+          "udunit": "NTU"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 70,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Secchi depth is a measure of visibility or transparency in water. A Secchi Disk is a patterned disk that is lowered into the water and the depth at which the pattern is no longer visible is the called the Secchi Disk depth (SDD). (IOOS)"
+      },
+      "display_name": {
+        "en": "Secchi depth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "secchi_depth_of_sea_water",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 3000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "Downwelling radiation is radiation from above. Shortwave is a term used to describe the radiant energy emitted by the sun in the visible and near-ultraviolet wavelengths. A radiative flux is sometimes referred to as 'irradiance.'"
+      },
+      "display_name": {
+        "en": "Incident solar radiation (downwelling, shortwave)"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "surface_downwelling_shortwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 3000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "Upwelling irradiance is irradiance from below. Shortwave is a term used to describe the radiant energy emitted by the sun in the visible and near-ultraviolet wavelengths. A radiative flux is sometimes referred to as 'irradiance.'"
+      },
+      "display_name": {
+        "en": "Surface upwelling shortwave radiation flux"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "surface_upwelling_shortwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "Upwelling radiation is radiation from below. Longwave indicates infrared radiation. A radiative flux is sometimes called 'irradiance.'"
+      },
+      "display_name": {
+        "en": "Surface upwelling longwave radiation flux"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "surface_upwelling_longwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "Downwelling radiation is radiation from above. Longwave indicates infrared radiation. A radiative flux is sometimes called 'irradiance.'"
+      },
+      "display_name": {
+        "en": "Surface downwelling longwave radiation flux"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "surface_downwelling_longwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "'Longwave' means ifrared radiation. 'Downward' indicates a vector component which is positive when directed downward (negative upward). Net downward radiation is the difference between radiation from above (downwelling) and radiation from below (upwelling). A radiative flux is sometimes called 'irradiance.' (CF def)"
+      },
+      "display_name": {
+        "en": "Net downward longwave radiation flux"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "net_downward_longwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "'Shortwave' means shortwave radiation. 'Downward' indicates a vector component which is positive when directed downward (negative upward). Net downward radiation is the difference between radiation from above (downwelling) and radiation from below (upwelling). A radiative flux is sometimes called 'irradiance.' (CF def)"
+      },
+      "display_name": {
+        "en": "Net downward shortwave radiation flux"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "net_downward_shortwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": "Net downward radiation is the difference between radiation from above (downwelling) and radiation from below (upwelling). Radiative flux is the sum of shortwave and longwave radiative fluxes. (CF def)"
+      },
+      "display_name": {
+        "en": "Total net downward radiation flux"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "surface_net_downward_radiative_flux",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "fraction",
+      "display_description": {
+        "en": "The albedo is the fraction of the shortwave radiation arriving at the land surface that is reflected back into the atmosphere. (USACE)"
+      },
+      "display_name": {
+        "en": "Albedo"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fraction",
+      "preferred_metric_unit_id": "fraction",
+      "standard_name": "surface_albedo",
+      "units": [
+        {
+          "id": "fraction",
+          "js_qty_unit": "fraction",
+          "symbol": "",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Precipitation is the amount of liquid rain that has accumulated over the measurement period."
+      },
+      "display_name": {
+        "en": "Precipitation amount"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "inches",
+      "preferred_metric_unit_id": "millimeters",
+      "standard_name": "lwe_thickness_of_precipitation_amount",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "milimeters",
+          "js_qty_unit": "mm",
+          "symbol": "mm",
+          "udunit": "mm"
+        },
+        {
+          "id": "inches",
+          "js_qty_unit": "in",
+          "symbol": "in",
+          "udunit": "in"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "Precipitation rate is the amount of wet equivalent preciptation per unit time. (IOOS def)"
+      },
+      "display_name": {
+        "en": "Precipitation rate"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "inches_per_hour",
+      "preferred_metric_unit_id": "millimeters_per_hour",
+      "standard_name": "lwe_precipitation_rate",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "milimeters_per_hour",
+          "js_qty_unit": "mm r-1",
+          "symbol": "mm/hr",
+          "udunit": "mm h-1"
+        },
+        {
+          "id": "inches_per_hour",
+          "js_qty_unit": "in h-1",
+          "symbol": "in/hr",
+          "udunit": "in h-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 3000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "watts_per_square_meter",
+      "display_description": {
+        "en": ""
+      },
+      "display_name": {
+        "en": "Solar radiation (upwelling, longwave)"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "watts_per_square_meter",
+      "preferred_metric_unit_id": "watts_per_square_meter",
+      "standard_name": "surface_upwelling_longwave_flux_in_air",
+      "units": [
+        {
+          "id": "watts_per_square_meter",
+          "js_qty_unit": "W m-2",
+          "symbol": "W/m²",
+          "udunit": "W m-2"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 3000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "moles_per_square_meter_second",
+      "display_description": {
+        "en": "Photosynthetically available radiation, or PAR, is the integrated downwelling irradiance for wavelengths from 400 to 700nm. It is the energy from the visible portion of sunlight that is available for photosynthesis [n water]. (IOOS)"
+      },
+      "display_name": {
+        "en": "Photosynthetically available radiation in water"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "micromoles_per_square_meter_second",
+      "preferred_metric_unit_id": "micromoles_per_square_meter_second",
+      "standard_name": "downwelling_photosynthetic_photon_flux_in_sea_water",
+      "units": [
+        {
+          "id": "moles_per_square_meter_second",
+          "js_qty_unit": "mol m-2 s-1",
+          "symbol": "mol/(m²s)",
+          "udunit": "mol m-2 s-1"
+        },
+        {
+          "id": "micromoles_per_square_meter_second",
+          "js_qty_unit": "µmol m-2 s-1",
+          "symbol": "µmol/(m²s)",
+          "udunit": "µmol m-2 s-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 3000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "moles_per_square_meter_second",
+      "display_description": {
+        "en": "Photosynthetically available radiation, or PAR, is the integrated downwelling irradiance for wavelengths from 400 to 700nm. It is the energy from the visible portion of sunlight that is available for photosynthesis [n water]. (IOOS)"
+      },
+      "display_name": {
+        "en": "Photosynthetically available radiation in air"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "micromoles_per_square_meter_second",
+      "preferred_metric_unit_id": "micromoles_per_square_meter_second",
+      "standard_name": "surface_downwelling_photosynthetic_photon_flux_in_air",
+      "units": [
+        {
+          "id": "moles_per_square_meter_second",
+          "js_qty_unit": "mol m-2 s-1",
+          "symbol": "mol/(m²s)",
+          "udunit": "mol m-2 s-1"
+        },
+        {
+          "id": "micromoles_per_square_meter_second",
+          "js_qty_unit": "µmol m-2 s-1",
+          "symbol": "µmol/(m²s)",
+          "udunit": "µmol m-2 s-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 2,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "Sea water currents are the directional movements of water. Currents at the surface is the direction and speed of the water at the surface (<1 meter deep)."
+      },
+      "display_name": {
+        "en": "Eastward Current at Surface"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "knots",
+      "preferred_metric_unit_id": "centimeters_per_second",
+      "standard_name": "surface_eastward_sea_water_velocity",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "centimeters_per_second",
+          "js_qty_unit": "cm s-1",
+          "symbol": "cm/s",
+          "udunit": "cm s-1"
+        },
+        {
+          "id": "knots",
+          "js_qty_unit": "kts",
+          "symbol": "kts",
+          "udunit": "kts"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 2,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "Sea water currents are the directional movements of water. Currents at the surface is the direction and speed of the water at the surface (<1 meter deep)."
+      },
+      "display_name": {
+        "en": "Northward Current at Surface"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "knots",
+      "preferred_metric_unit_id": "centimeters_per_second",
+      "standard_name": "surface_northward_sea_water_velocity",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "centimeters_per_second",
+          "js_qty_unit": "cm s-1",
+          "symbol": "cm/s",
+          "udunit": "cm s-1"
+        },
+        {
+          "id": "knots",
+          "js_qty_unit": "kts",
+          "symbol": "kts",
+          "udunit": "kts"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "per_meter",
+      "display_description": {
+        "en": "Backscatter is the measure of sound that is reflected by the sea floor and received by the sonar. (NOAA) "
+      },
+      "display_name": {
+        "en": "Backscatter"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "per_meter",
+      "preferred_metric_unit_id": "per_meter",
+      "standard_name": "volume_backwards_scattering_coefficient_of_radiative_flux_in_sea_water",
+      "units": [
+        {
+          "id": "per_meter",
+          "js_qty_unit": "m-1",
+          "symbol": "m-1",
+          "udunit": "m-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "per_meter_steradian",
+      "display_description": {
+        "en": "Backscatter is the measure of sound that is reflected by the sea floor and received by the sonar. (NOAA) "
+      },
+      "display_name": {
+        "en": "Backscatter"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "per_meter_steradian",
+      "preferred_metric_unit_id": "per_meter_steradian",
+      "standard_name": "volume_scattering_function_of_radiative_flux_in_sea_water",
+      "units": [
+        {
+          "id": "per_meter_steradian",
+          "js_qty_unit": "m-1 sr-1",
+          "symbol": "m-1 sr-1",
+          "udunit": "m-1 sr-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": null,
+      "display_description": {
+        "en": "Pressure Tendency"
+      },
+      "display_name": {
+        "en": "Pressure Tendency"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": null,
+      "preferred_metric_unit_id": null,
+      "standard_name": "tendency_of_air_pressure",
+      "units": []
+    },
+    {
+      "alerts": {
+        "threshold_max": 2,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). (CF)"
+      },
+      "display_name": {
+        "en": "Upward Velocity"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "miles_per_hour",
+      "preferred_metric_unit_id": "centimeters_per_second",
+      "standard_name": "upward_sea_water_velocity",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "centimeters_per_second",
+          "js_qty_unit": "cm s-1",
+          "symbol": "cm/s",
+          "udunit": "cm s-1"
+        },
+        {
+          "id": "miles_per_hour",
+          "js_qty_unit": "mi h-1",
+          "symbol": "mph",
+          "udunit": "mi h-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 23000,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Atmospheric visibility is the distance an object can be seen and identified. (IOOS)"
+      },
+      "display_name": {
+        "en": "Atmospheric visibility"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "visibility_in_air",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 311,
+        "threshold_min": 200
+      },
+      "canonical_unit_id": "kelvin",
+      "display_description": {
+        "en": "Wind chill is the perceived air temperature when wind is factored in with the ambient air temperature (which makes it feel colder than the actual air temperature). Wind chill is based on the rate of heat loss from exposed skin caused by wind and cold. (CF)"
+      },
+      "display_name": {
+        "en": "Wind Chill"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "fahrenheit",
+      "preferred_metric_unit_id": "celsius",
+      "standard_name": "wind_chill_of_air_temperature",
+      "units": [
+        {
+          "id": "kelvin",
+          "js_qty_unit": "tempK",
+          "symbol": "K",
+          "udunit": "K"
+        },
+        {
+          "id": "celsius",
+          "js_qty_unit": "tempC",
+          "symbol": "°C",
+          "udunit": "degree_Celsius"
+        },
+        {
+          "id": "fahrenheit",
+          "js_qty_unit": "tempF",
+          "symbol": "°F",
+          "udunit": "degree_Fahrenheit"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": " Wind direction is the direction from which wind is blowing. It is a meteorological convention (degrees clockwise from North). (IOOS)"
+      },
+      "display_name": {
+        "en": "Wind direction (from)"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "wind_from_direction",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "Wind speed is the magnitude of wind velocity. Wind is motion of air relative to the surface of the earth. (IOOS)"
+      },
+      "display_name": {
+        "en": "Wind speed"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "knots",
+      "preferred_metric_unit_id": "knots",
+      "standard_name": "wind_speed",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "knots",
+          "js_qty_unit": "kts",
+          "symbol": "kts",
+          "udunit": "kts"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "Wind gust speed is the maximum instantaneous wind speed (usually no more than but not limited to 10 seconds) within a sample averaging interval. (IOOS)"
+      },
+      "display_name": {
+        "en": "Wind Gust Speed"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "knots",
+      "preferred_metric_unit_id": "knots",
+      "standard_name": "wind_speed_of_gust",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "knots",
+          "js_qty_unit": "kts",
+          "symbol": "kts",
+          "udunit": "kts"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "practical_salinity_unit",
+      "display_description": {
+        "en": "Salinity refers to the salt content of a water sample or body of water. (NOAA)"
+      },
+      "display_name": {
+        "en": "Salinity"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "practical_salinity_unit",
+      "preferred_metric_unit_id": "practical_salinity_unit",
+      "standard_name": "sea_water_practical_salinity",
+      "units": [
+        {
+          "id": "practical_salinity_unit",
+          "js_qty_unit": "1",
+          "symbol": "PSU",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Depth is the Z-coordinate of observation in vertical distance below reference. Down is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Depth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "depth",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Depth is the Z-coordinate of observation in vertical distance below reference. Down is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Depth"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "depth_below_geoid",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Latitude is the Y-coordinate of dependent observation in geographic coordinate. North is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Latitude"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "grid_latitude",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Sea ice percent coverage"
+      },
+      "display_name": {
+        "en": "Sea ice percent coverage"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "sea_ice_area_fraction",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Longitude is the X-coordinate of dependent observation in geographic coordinate. East is positive. (IOOS)"
+      },
+      "display_name": {
+        "en": "Longitude"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "grid_longitude",
+      "units": [
+        {
+          "id": "degree",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 0.06,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "siemens_per_meter",
+      "display_description": {
+        "en": "Conductivity is the ability of a material to pass an electrical current. Conductivity can be corrected to a reference temperature. When this reference temperature is 25 degrees Celsius it is often referred to as 'specific conductivity'."
+      },
+      "display_name": {
+        "en": "Specific Conductivity"
+      },
+      "name_vocabulary": "cf",
+      "preferred_imperial_unit_id": "microsiemens_per_centimeter",
+      "preferred_metric_unit_id": "microsiemens_per_centimeter",
+      "standard_name": "sea_water_electrical_conductivity_at_reference_temperature",
+      "units": [
+        {
+          "id": "siemens_per_meter",
+          "js_qty_unit": "S m-1",
+          "symbol": "S/m",
+          "udunit": "S m-1"
+        },
+        {
+          "id": "microsiemens_per_centimeter",
+          "js_qty_unit": "µS cm-1",
+          "symbol": "µS/cm",
+          "udunit": "µS cm-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "rfu",
+      "display_description": {
+        "en": "FDOM refers to  the fluorescent fraction of colored DOM (referred to as CDOM fluorescence or FDOM) (IOOS)"
+      },
+      "display_name": {
+        "en": "Fluorescent dissolved organic matter (fdom)"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "rfu",
+      "preferred_metric_unit_id": "rfu",
+      "standard_name": "fluorescent_dissolved_organic_matter",
+      "units": [
+        {
+          "id": "rfu",
+          "js_qty_unit": "RFU",
+          "symbol": "RFU",
+          "udunit": "RFU"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 99999,
+        "threshold_min": -99999
+      },
+      "canonical_unit_id": "1",
+      "display_description": {
+        "en": "ID of a Innovasea Fathom fish tag"
+      },
+      "display_name": {
+        "en": "Fathom Tag ID"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "unit",
+      "preferred_metric_unit_id": "unit",
+      "standard_name": "fathom_tag_id",
+      "units": [
+        {
+          "id": "unit",
+          "js_qty_unit": "1",
+          "symbol": "",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 0.06,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "siemens_per_meter",
+      "display_description": {
+        "en": "Specific conductivity is conductivity at 25 °C, meaning that at any temperature for which the measurement is made, the value is corrected to what it would be at 25 ºC (USGS)."
+      },
+      "display_name": {
+        "en": "Specific conductivity"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "microsiemens_per_centimeter",
+      "preferred_metric_unit_id": "microsiemens_per_centimeter",
+      "standard_name": "sea_water_specific_conductivity",
+      "units": [
+        {
+          "id": "siemens_per_meter",
+          "js_qty_unit": "S m-1",
+          "symbol": "S/m",
+          "udunit": "S m-1"
+        },
+        {
+          "id": "microsiemens_per_centimeter",
+          "js_qty_unit": "µS cm-1",
+          "symbol": "µS/cm",
+          "udunit": "µS cm-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Phycocyanin is a pigment found in cyanobacteria that is measured in freshwater environments. The phycocyanin measurement is used as a field screening for cyanobacteria and cyanobacteria blooms, also called blue green algae. (EPA)"
+      },
+      "display_name": {
+        "en": "Phycocyanin concentration"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "phycocyanin_concentration",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters_per_second",
+      "display_description": {
+        "en": "Current speed is the speed at which the water is flowing. It is calculated from the eastward and northward vector components."
+      },
+      "display_name": {
+        "en": "Current speed"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "miles_per_hour",
+      "preferred_metric_unit_id": "centimeters_per_second",
+      "standard_name": "current_speed",
+      "units": [
+        {
+          "id": "meters_per_second",
+          "js_qty_unit": "m s-1",
+          "symbol": "m/s",
+          "udunit": "m s-1"
+        },
+        {
+          "id": "centimeters_per_second",
+          "js_qty_unit": "cm s-1",
+          "symbol": "cm/s",
+          "udunit": "cm s-1"
+        },
+        {
+          "id": "miles_per_hour",
+          "js_qty_unit": "mi h-1",
+          "symbol": "mph",
+          "udunit": "mi h-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "degree",
+      "display_description": {
+        "en": "Current direction is the direction from which the water is flowing. It is calculated from the eastward and northward vector components."
+      },
+      "display_name": {
+        "en": "Current direction (from)"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "degree",
+      "preferred_metric_unit_id": "degree",
+      "standard_name": "current_from_direction",
+      "units": [
+        {
+          "id": "degree'",
+          "js_qty_unit": "degree",
+          "symbol": "°",
+          "udunit": "degree"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Phycocyanin is a pigment found in cyanobacteria that is measured in freshwater environments. The phycocyanin measurement is used as a field screening for cyanobacteria and cyanobacteria blooms, also called blue green algae. (EPA)"
+      },
+      "display_name": {
+        "en": "Phycocyanin concentration"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "phycocyanin_cell_concentration",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "1 mL-1",
+          "symbol": "cells/mL",
+          "udunit": "1 mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "rfu",
+      "display_description": {
+        "en": "Phycocyanin is a pigment found in cyanobacteria that is measured in freshwater environments. The phycocyanin measurement is used as a field screening for cyanobacteria and cyanobacteria blooms, also called blue green algae. (EPA)"
+      },
+      "display_name": {
+        "en": "Phycocyanin fluorescence"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "rfu",
+      "preferred_metric_unit_id": "rfu",
+      "standard_name": "phycocyanin_fluorescence",
+      "units": [
+        {
+          "id": "rfu",
+          "js_qty_unit": "RFU",
+          "symbol": "RFU",
+          "udunit": "RFU"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 1500,
+        "threshold_min": -1500
+      },
+      "canonical_unit_id": "millivolts",
+      "display_description": {
+        "en": "Redox (oxidation and reduction) potential of seawater in millivolts. (NOAA)"
+      },
+      "display_name": {
+        "en": "Oxidation reduction potential"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "millivolts",
+      "preferred_metric_unit_id": "millivolts",
+      "standard_name": "oxidation_reduction_potential",
+      "units": [
+        {
+          "id": "millivolts",
+          "js_qty_unit": "mV",
+          "symbol": "mV",
+          "udunit": "mV"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Microcystins are toxins produced by a number of cyanobacteria species. (EPA)"
+      },
+      "display_name": {
+        "en": "Microcystin concentration"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "microcystin_concentration",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": null,
+      "display_description": {
+        "en": "Microcystin estimate"
+      },
+      "display_name": {
+        "en": "Microcystin estimate"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": null,
+      "preferred_metric_unit_id": null,
+      "standard_name": "microcystin_is_estimate",
+      "units": []
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Microcystin Lower Limit of Detection"
+      },
+      "display_name": {
+        "en": "Microcystin LLOD"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "microcystin_llod",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Calcium"
+      },
+      "display_name": {
+        "en": "Calcium"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "calcium",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Potassium"
+      },
+      "display_name": {
+        "en": "Potassium"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "potassium",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Magnesium"
+      },
+      "display_name": {
+        "en": "Magnesium"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "magnesium",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Particulate microcystin"
+      },
+      "display_name": {
+        "en": "Particulate microcystin"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "particulate_microcystin",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Dissolved microcystin"
+      },
+      "display_name": {
+        "en": "Dissolved microcystin"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "dissolved_microcystin",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Extracted phycocyanin"
+      },
+      "display_name": {
+        "en": "Extracted phycocyanin"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "extracted_phycocyanin",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Extracted anatoxin"
+      },
+      "display_name": {
+        "en": "Extracted anatoxin"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "extracted_anatoxin",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Extracted microcystin"
+      },
+      "display_name": {
+        "en": "Extracted microcystin"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "extracted_microcystin",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Dissolved phosphorus"
+      },
+      "display_name": {
+        "en": "Dissolved phosphorus"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "dissolved_phosphorus",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as P",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Soluble reactive phosphorus"
+      },
+      "display_name": {
+        "en": "Soluble reactive phosphorus"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "soluble_reactive_phosphorus",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as P",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Urea"
+      },
+      "display_name": {
+        "en": "Urea"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "urea",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Particulate organic carbon"
+      },
+      "display_name": {
+        "en": "Particulate organic carbon"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "particulate_organic_carbon",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as c",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Particulate organic nitrogen"
+      },
+      "display_name": {
+        "en": "Particulate organic nitrogen"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "particulate_organic_nitrogen",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as N",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "milligrams_per_liter",
+      "display_description": {
+        "en": "Volatile suspended solids"
+      },
+      "display_name": {
+        "en": "Volatile suspended solids"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "volatile_suspended_solids",
+      "units": [
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Aphanizomenon count"
+      },
+      "display_name": {
+        "en": "Aphanizomenon count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "aphanizomenon_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Cuspidothrix count"
+      },
+      "display_name": {
+        "en": "Cuspidothrix count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "cuspidothrix_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Cyanobium count"
+      },
+      "display_name": {
+        "en": "Cyanobium count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "cyanobium_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Lyngbya count"
+      },
+      "display_name": {
+        "en": "Lyngbya count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "lyngbya_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Oscillatoria count"
+      },
+      "display_name": {
+        "en": "Oscillatoria count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "oscillatoria_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Pseudanabaena count"
+      },
+      "display_name": {
+        "en": "Pseudanabaena count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "pseudanabaena_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Microcystis cell count"
+      },
+      "display_name": {
+        "en": "Microcystis cell count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "microcystis_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Planktothrix cell count"
+      },
+      "display_name": {
+        "en": "Planktothrix cell count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "planktothrix_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Raphidiopsis cell count"
+      },
+      "display_name": {
+        "en": "Raphidiopsis cell count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "raphidiopsis_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Anabaena cell count"
+      },
+      "display_name": {
+        "en": "Anabaena cell count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "anabaena_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Cylindrospermopsis cell count"
+      },
+      "display_name": {
+        "en": "Cylindrospermopsis cell count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "cylindrospermopsis_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Diatoms count"
+      },
+      "display_name": {
+        "en": "Diatoms count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "diatoms_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "cells_per_milliliter",
+      "display_description": {
+        "en": "Didymosphenia count"
+      },
+      "display_name": {
+        "en": "Didymosphenia count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "cells_per_milliliter",
+      "preferred_metric_unit_id": "cells_per_milliliter",
+      "standard_name": "didymosphenia_count",
+      "units": [
+        {
+          "id": "cells_per_milliliter",
+          "js_qty_unit": "cells mL-1",
+          "symbol": "cells/mL",
+          "udunit": "cells mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": null,
+      "display_description": {
+        "en": "Dolichospermum count"
+      },
+      "display_name": {
+        "en": "Dolichospermum count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": null,
+      "preferred_metric_unit_id": null,
+      "standard_name": "dolichospermum_count",
+      "units": []
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": null,
+      "display_description": {
+        "en": "Dreissenid mussel count"
+      },
+      "display_name": {
+        "en": "Dreissenid mussel count"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": null,
+      "preferred_metric_unit_id": null,
+      "standard_name": "dreissenid_mussels_count",
+      "units": []
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "copies_per_milliliter",
+      "display_description": {
+        "en": "Total cyanobacteria genes"
+      },
+      "display_name": {
+        "en": "Total cyanobacteria genes"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "copies_per_milliliter",
+      "preferred_metric_unit_id": "copies_per_milliliter",
+      "standard_name": "qPCR_total",
+      "units": [
+        {
+          "id": "copies_per_milliliter",
+          "js_qty_unit": "copies mL-1",
+          "symbol": "copies/mL",
+          "udunit": "copies mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "copies_per_milliliter",
+      "display_description": {
+        "en": "Microcystin genes"
+      },
+      "display_name": {
+        "en": "Microcystin genes"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "copies_per_milliliter",
+      "preferred_metric_unit_id": "copies_per_milliliter",
+      "standard_name": "qPCR_mcyE",
+      "units": [
+        {
+          "id": "copies_per_milliliter",
+          "js_qty_unit": "copies mL-1",
+          "symbol": "copies/mL",
+          "udunit": "copies mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "copies_per_milliliter",
+      "display_description": {
+        "en": "Saxitoxin genes"
+      },
+      "display_name": {
+        "en": "Saxitoxin genes"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "copies_per_milliliter",
+      "preferred_metric_unit_id": "copies_per_milliliter",
+      "standard_name": "qPCR_sxtA",
+      "units": [
+        {
+          "id": "copies_per_milliliter",
+          "js_qty_unit": "copies mL-1",
+          "symbol": "copies/mL",
+          "udunit": "copies mL-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Anabaena abundance"
+      },
+      "display_name": {
+        "en": "Anabaena abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "anabaena_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Aphanizomenon abundance"
+      },
+      "display_name": {
+        "en": "Aphanizomenon abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "aphanizomenon_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Cuspidothrix abundance"
+      },
+      "display_name": {
+        "en": "Cuspidothrix abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "cuspidothrix_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Cyanobium abundance"
+      },
+      "display_name": {
+        "en": "Cyanobium abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "cyanobium_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Cylindrospermopsis abundance"
+      },
+      "display_name": {
+        "en": "Cylindrospermopsis abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "cylindrospermopsis_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Diatoms abundance"
+      },
+      "display_name": {
+        "en": "Diatoms abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "diatoms_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Didymosphenia abundance"
+      },
+      "display_name": {
+        "en": "Didymosphenia abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "didymosphenia_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Dolichospermum abundance"
+      },
+      "display_name": {
+        "en": "Dolichospermum abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "dolichospermum_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Dreissenid mussel abundance"
+      },
+      "display_name": {
+        "en": "Dreissenid mussel abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "dreissenid_mussels_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Lyngbya abundance"
+      },
+      "display_name": {
+        "en": "Lyngbya abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "lyngbya_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Microcystis abundance"
+      },
+      "display_name": {
+        "en": "Microcystis abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "microcystis_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Oscillatoria abundance"
+      },
+      "display_name": {
+        "en": "Oscillatoria abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "oscillatoria_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Planktothrix abundance"
+      },
+      "display_name": {
+        "en": "Planktothrix abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "planktothrix_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Pseudanabaena abundance"
+      },
+      "display_name": {
+        "en": "Pseudanabaena abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "pseudanabaena_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "percent",
+      "display_description": {
+        "en": "Raphidiopsis abundance"
+      },
+      "display_name": {
+        "en": "Raphidiopsis abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "percent",
+      "preferred_metric_unit_id": "percent",
+      "standard_name": "raphidiopsis_abundance",
+      "units": [
+        {
+          "id": "percent",
+          "js_qty_unit": "%",
+          "symbol": "%",
+          "udunit": "%"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Lyngbyatoxin biosynthesis gene ltxC abundance"
+      },
+      "display_name": {
+        "en": "Lyngbyatoxin biosynthesis gene ltxC abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "lyngbyatoxin_biosynthesis_gene_ltxC_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Nodularin biosynthesis gene ndaF abundance"
+      },
+      "display_name": {
+        "en": "Nodularin biosynthesis gene ndaF abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "nodularin_biosynthesis_gene_ndaF_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Microcystin biosynthesis gene mcyE abundance"
+      },
+      "display_name": {
+        "en": "Microcystin biosynthesis gene mcyE abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "microcystin_biosynthesis_gene_mcyE_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Saxitoxin biosynthesis gene sxtA abundance"
+      },
+      "display_name": {
+        "en": "Saxitoxin biosynthesis gene sxtA abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "saxitoxin_biosynthesis_gene_sxtA_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Anatoxin biosynthesis gene anaC abundance"
+      },
+      "display_name": {
+        "en": "Anatoxin biosynthesis gene anaC abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "anatoxin_biosynthesis_gene_anaC_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Anabaenopeptin biosynthesis gene apnA abundance"
+      },
+      "display_name": {
+        "en": "Anabaenopeptin biosynthesis gene apnA abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "anabaenopeptin_biosynthesis_gene_apnA_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Anabaenopeptin biosynthesis gene apnC abundance"
+      },
+      "display_name": {
+        "en": "Anabaenopeptin biosynthesis gene apnC abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "anabaenopeptin_biosynthesis_gene_apnC_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Anabaenopeptilide biosynthesis gene apdD abundance"
+      },
+      "display_name": {
+        "en": "Anabaenopeptilide biosynthesis gene apdD abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "anabaenopeptilide_biosynthesis_gene_apdD_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Anabaenopeptilide biosynthesis gene apdB abundance"
+      },
+      "display_name": {
+        "en": "Anabaenopeptilide biosynthesis gene apdB abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "anabaenopeptilide_biosynthesis_gene_apdB_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "TPM",
+      "display_description": {
+        "en": "Cylindrospermopsin biosynthesis gene cyrA abundance"
+      },
+      "display_name": {
+        "en": "Cylindrospermopsin biosynthesis gene cyrA abundance"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "TPM",
+      "preferred_metric_unit_id": "TPM",
+      "standard_name": "cylindrospermopsin_biosynthesis_gene_cyrA_abundance",
+      "units": [
+        {
+          "id": "TPM",
+          "js_qty_unit": "1",
+          "symbol": "TPM",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "1",
+      "display_description": {
+        "en": "Sample Collection Number"
+      },
+      "display_name": {
+        "en": "Sample Collection Number"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "unit",
+      "preferred_metric_unit_id": "unit",
+      "standard_name": "sample_collection_number",
+      "units": [
+        {
+          "id": "unit",
+          "js_qty_unit": "1",
+          "symbol": "",
+          "udunit": "1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrometers",
+      "display_description": {
+        "en": "Pore size fraction (upper)"
+      },
+      "display_name": {
+        "en": "Pore size fraction (upper)"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrometers",
+      "preferred_metric_unit_id": "micrometers",
+      "standard_name": "size_frac_up",
+      "units": [
+        {
+          "id": "micrometers",
+          "js_qty_unit": "µm",
+          "symbol": "µm",
+          "udunit": "µm"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrometers",
+      "display_description": {
+        "en": "Pore size fraction (lower)"
+      },
+      "display_name": {
+        "en": "Pore size fraction (lower)"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrometers",
+      "preferred_metric_unit_id": "micrometers",
+      "standard_name": "size_frac_low",
+      "units": [
+        {
+          "id": "micrometers",
+          "js_qty_unit": "µm",
+          "symbol": "µm",
+          "udunit": "µm"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "Microcystin LLOQ"
+      },
+      "display_name": {
+        "en": "Microcystin LLOQ"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "microcystin_lloq",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "milligrams_per_liter",
+      "display_description": {
+        "en": "Suspended particulate matter"
+      },
+      "display_name": {
+        "en": "Suspended particulate matter"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "suspended_particulate_matter",
+      "units": [
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "The upper limit of quantification for microcystin."
+      },
+      "display_name": {
+        "en": "Microcystin ULOQ"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "microcystin_gt_uloq",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Minimum depth of sampling for presented data"
+      },
+      "display_name": {
+        "en": "Minimum depth"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "depth_min",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Maximum depth of sampling for presented data"
+      },
+      "display_name": {
+        "en": "Maximum depth"
+      },
+      "name_vocabulary": "glos",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "depth_max",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 50,
+        "threshold_min": 0
+      },
+      "canonical_unit_id": "volts",
+      "display_description": {
+        "en": "Battery voltage of a sensor system or datalogger that is recorded as an indicator of sensor health and data reliability. (IOOS)"
+      },
+      "display_name": {
+        "en": "Battery voltage"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "volts",
+      "preferred_metric_unit_id": "volts",
+      "standard_name": "battery_voltage",
+      "units": [
+        {
+          "id": "volts",
+          "js_qty_unit": "V",
+          "symbol": "V",
+          "udunit": "V"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": 100,
+        "threshold_min": -2
+      },
+      "canonical_unit_id": "rfu",
+      "display_description": {
+        "en": "Chlorophyll is the green pigment in plants and algae. Chlorophyll measurements are used to determine how much algae is in the water. (USGS)"
+      },
+      "display_name": {
+        "en": "Chlorophyll fluorescence"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "rfu",
+      "preferred_metric_unit_id": "rfu",
+      "standard_name": "chlorophyll_fluorescence",
+      "units": [
+        {
+          "id": "rfu",
+          "js_qty_unit": "RFU",
+          "symbol": "RFU",
+          "udunit": "RFU"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micromoles_per_liter",
+      "display_description": {
+        "en": "Dissolved organic carbon"
+      },
+      "display_name": {
+        "en": "Dissolved organic carbon"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "micrograms_per_liter",
+      "preferred_metric_unit_id": "micrograms_per_liter",
+      "standard_name": "dissolved_organic_carbon",
+      "units": [
+        {
+          "id": "micromoles_per_liter",
+          "js_qty_unit": "umol L-1",
+          "symbol": "µmol/L",
+          "udunit": "umol L-1"
+        },
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L",
+          "udunit": "ug L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "This is the concentration of nitrate (NO₃⁻) in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Nitrate"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "nitrate",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as N",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as N",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "This is the concentration of phosphate (PO₄⁳⁻) in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Phosphate"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "phosphate",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as P",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as P",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "This is the concentration of ammonium (NH₄⁺) in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Ammonium"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "ammonium",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as N",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as N",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "This is the concentration of ammonia (NH₃) in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Ammonia"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "ammonia",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as N",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as N",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "The concentration of total phosphorus (TP) represents the sum of organic and inorganic phosphorus compounds in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Total phosphorus"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "total_phosphorus",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as P",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as P",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "The concentration of nitrite and nitrate (NO₂⁻ + NO₃⁻) in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Nitrite plus nitrate"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "nitrite_plus_nitrate",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as N",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as N",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "micrograms_per_liter",
+      "display_description": {
+        "en": "The concentration of total nitrogen (TN) represents the sum of organic and inorganic nitrogen compounds in a water sample. (IOOS)"
+      },
+      "display_name": {
+        "en": "Total nitrogen"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "total_nitrogen",
+      "units": [
+        {
+          "id": "micrograms_per_liter",
+          "js_qty_unit": "ug L-1",
+          "symbol": "µg/L as N",
+          "udunit": "ug L-1"
+        },
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L as N",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "milligrams_per_liter",
+      "display_description": {
+        "en": "Total suspended solids (TSS) are organic and inorganic solids that suspend in water. They can be silt, phytoplankton, and waste. (IOOS)"
+      },
+      "display_name": {
+        "en": "Total suspended solids"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "milligrams_per_liter",
+      "preferred_metric_unit_id": "milligrams_per_liter",
+      "standard_name": "total_suspended_solids",
+      "units": [
+        {
+          "id": "milligrams_per_liter",
+          "js_qty_unit": "mg L-1",
+          "symbol": "mg/L",
+          "udunit": "mg L-1"
+        }
+      ]
+    },
+    {
+      "alerts": {
+        "threshold_max": null,
+        "threshold_min": null
+      },
+      "canonical_unit_id": "meters",
+      "display_description": {
+        "en": "Surface elevation is the height or altitude of the sea surface above a specified reference. (IOOS)"
+      },
+      "display_name": {
+        "en": "Surface elevation"
+      },
+      "name_vocabulary": "ioos",
+      "preferred_imperial_unit_id": "feet",
+      "preferred_metric_unit_id": "meters",
+      "standard_name": "surface_elevation",
+      "units": [
+        {
+          "id": "meters",
+          "js_qty_unit": "m",
+          "symbol": "m",
+          "udunit": "m"
+        },
+        {
+          "id": "feet",
+          "js_qty_unit": "ft",
+          "symbol": "ft",
+          "udunit": "ft"
+        }
+      ]
+    }
+  ]
