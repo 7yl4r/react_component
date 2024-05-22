@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import './CfParameterField.css';
+import parameterRecommend from './parameterMapper';
 
 export interface CfParameterFieldProps {
    label: string;
 }
 
-const cf_standard = require('../../vocabulary_json/cf_standard.json');
+// const cf_standard = require('../../vocabulary_json/cf_standard.json');
 
 const CfParameterField = (props: CfParameterFieldProps) => {
 
    const [value, setValue] = useState('');
    const [showSuggestions, setShowSuggestions] = useState(false);
-   const suggestions = cf_standard.filter( name => name.standard_name.includes(value));
+   // const suggestions = cf_standard.filter( name => name.standard_name.includes(value));
+   const suggestions = parameterRecommend(value);
 
    useEffect(() => {
 
@@ -44,7 +46,13 @@ const CfParameterField = (props: CfParameterFieldProps) => {
          {showSuggestions && (
             <ul className="suggestions">
                {suggestions.map(suggestion => (
-                  <li onClick={selectName} key={suggestion.standard_name}>{suggestion.standard_name}</li>
+                  <li onClick={selectName} key={suggestion.standard_name}>
+                     {suggestion.standard_name}
+                     <ul>
+                        <li>{suggestion.display_description.en}</li>
+                        <li>{suggestion.name_vocabulary}</li>
+                     </ul>
+                  </li>
                ))}
             </ul>
          )}
