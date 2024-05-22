@@ -1,0 +1,4 @@
+keywordsCfToGcmd.csv - https://coastwatch.pfeg.noaa.gov/erddap/convert/keywords.html under "View/download a file which has all of the CF to GCMD conversion information"
+Darwin Core term_versions.csv - https://github.com/tdwg/dwc/blob/master/vocabulary/term_versions.csv
+(Abbreviated 'abbr' version made from that)
+seagull.json - https://seagull-api.glos.org/docs#get-/api/v1/parameter-configurations (filtered for GLOS vocabulary)
