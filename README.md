@@ -1,4 +1,6 @@
-# 
+# IOOS Parameter Recommender Form Field React Component
+
+Uses various vocabularies (CF, DwC, GDMC (WiP), NERC (NYI)) to suggest values for a form field.
 
 * `npm install --save-dev jest-environment-jsdom` : set up test env
 * `npm run test` : run tests
@@ -7,8 +9,6 @@
 * `npm run build-storybook` : build storybook
 
 -----------------------------------------------------------------------
-
-# React Component Library Template
 
 This repo was cloned from [alexeagleson/template-react-component-library](https://github.com/alexeagleson/template-react-component-library/).
 Some of the documentation from that repo remains included below.
