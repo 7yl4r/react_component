@@ -17,13 +17,7 @@ Some of the documentation from that repo remains included below.
 
 This project is part of a [blog & video tutorial](https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe) on how to create and publish your own component library.
 
-[![React Component Library Video Tutorial](https://img.youtube.com/vi/XHQi5a0TmMc/0.jpg)](https://youtu.be/XHQi5a0TmMc)
-
-## Introduction
-
-This tutorial will take you through the process of creating and publishing your own custom React component library and hosting it on Github.  
-
-At the end of this tutorial you will have the ability to the following in all of your future React projects:
+## Overview
 
 ```bash
 npm install @my-github-account/my-cool-component-library
@@ -170,7 +164,7 @@ To fix this we are going to add the following values to `tsconfig.json`:
 }
 ```
 
-I have separated these values into a couple different sections based on the default `tsconfig.json` created using the most recent version of Typescript as of this writing (4.4).  The values commented _default_ should already be set for you by default (you will want to double check and make sure however).
+These values are separated into a couple different sections based on the default `tsconfig.json` created using the most recent version of Typescript as of this writing (4.4).  The values commented _default_ should already be set for you by default (you will want to double check and make sure however).
 
 The values marked _added_ are new values that we need for our project.  We'll briefly outline why we need them:
 
