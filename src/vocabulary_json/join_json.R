@@ -1,7 +1,7 @@
 # Run in directory
 library(rjson)
 
-work_dir <- '/home/jpthesmithe/Desktop/GLOS_System_Map/2024-code-sprint-param-mapper/react_component/src/vocabulary_json/'
+work_dir <- './react_component/src/vocabulary_json/'
 
 setwd(work_dir)
 
